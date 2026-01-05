@@ -9,10 +9,12 @@
 #genrate a random number 
 import random
 
-number = random.randint(1,20)
-print(number)
+number = random.randint(1,10)
 
+#record user input
+guessnumber= int(input("Choose a number from 1-10: "))
 
-# #record user input
-# guessnumber= int(input("Choose a number from 1-20: "))
-# print(guessnumber)
+if number == guessnumber:
+    print("Correct, the number was:",number)
+else:
+    print("Incorrect the number was:", number)
