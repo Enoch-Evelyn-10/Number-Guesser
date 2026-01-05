@@ -5,6 +5,14 @@
 #Compare user input to generated number 
 #If matched print correct if not print incorrect 
 
-#record user input
-number= int(input("Choose a number from 1-20: "))
+
+#genrate a random number 
+import random
+
+number = random.randint(1,20)
 print(number)
+
+
+# #record user input
+# guessnumber= int(input("Choose a number from 1-20: "))
+# print(guessnumber)
